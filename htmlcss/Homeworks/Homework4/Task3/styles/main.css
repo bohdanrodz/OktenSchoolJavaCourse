@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+header, footer{
+    height: 22vh;
+    background: #D9D9D9;
+}
+main{
+    height: 56vh;
+    display: flex;
+}
+main aside{
+    height: 100%;
+    width: 27vw;
+    background: #C0BDBD;
+}
+main section{
+    height: 100%;
+    width: 46vw;
+}
+.section__article-top{
+    height: 26vh;
+    background: #827878;
+}
+.section__article-bottom{
+    height: 30vh;
+    background: #B7ADAD;
+}

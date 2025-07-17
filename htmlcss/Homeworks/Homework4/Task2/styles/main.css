@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+header, footer{
+    height: 22vh;
+    background: #D9D9D9;
+}
+main{
+    height: 56vh;
+    display: flex;
+}
+main aside{
+    width: 27vw;
+    background: #C0BDBD;
+}
+main section{
+    width: 46vw;
+    background: #A4A4A4;
+}
+
+
