@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: Manrope, sans-serif;
+}
+.website{
+    width: 37.5vw;
+    height: 100%;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    padding: 3.8vh;
+}
+.login-container{
+    height: 85%;
+    border: 2px solid lightgrey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-container img{
+    width: 55%;
+    margin-top: 10%;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 8%;
+}
+form input[type=text],
+form input[type=password]{
+    width: 77%;
+    height: 7.5vh;
+    background: #f6f6f6;
+    border: 2px solid lightgrey;
+    border-radius: 6px;
+    margin: 6px;
+    font-size: 2.5vh;
+    padding: 10px;
+}
+form input[type=text]:focus,
+form input[type=password]:focus{
+    outline: 3px solid #437aea;
+}
+form input[type=submit]{
+    border: none;
+    border-radius: 15px;
+    width: 77%;
+    height: 6.3vh;
+    background: #70b4fc;
+    color: white;
+    font-size: 2.8vh;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+.login-container .or{
+    color: gray;
+    font-weight: bold;
+    font-size: 2.5vh;
+    margin-top: 4vh;
+}
+.login-with-facebook svg{
+    height: 3.3vh;
+    width: 3.3vh;
+}
+.login-with-facebook{
+    font-size: 2.8vh;
+    margin-top: 5.5vh;
+}
+.login-with-facebook span{
+    margin-left: 0.8vw;
+}
+input::placeholder{
+    font-family: Roboto, sans-serif;
+}
+.forgot-the-password{
+    font-size: 2.3vh;
+    margin-top: 4vh;
+}
+.login-container a{
+    text-decoration: none;
+    color: #23237a;
+}
+.flex-align-center{
+    display: flex;
+    align-items: center;
+}
+.login-container a:visited{
+    color: #23237a;
+}
+.register-container{
+    margin-top: 2vh;
+    height: 14%;
+    border: 2px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-container p{
+    font-size: 2.9vh;
+}
+.register-container a{
+    text-decoration: none;
+    color: #70b4fc;
+    font-weight: bold;
+}
+.register-container a:visited{
+    color: #70b4fc;
+}
