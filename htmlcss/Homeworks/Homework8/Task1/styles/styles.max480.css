@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px){
+    .gallery{
+        width: 100%;
+        padding: 32px 16px;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+;
+
+}

@@ -1,0 +1,33 @@
+@import "reset.css";
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+.gallery {
+    padding-top: 40px;
+    width: 1180px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card{
+    width: 372px;
+    margin-bottom: 32px;
+}
+.card h3{
+    margin: 20px 0 15px 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+}
+.card p{
+    color: #3C3C43;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
