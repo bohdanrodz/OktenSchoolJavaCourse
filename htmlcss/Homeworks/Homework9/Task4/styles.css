@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+}
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 1fr 2fr 2fr;
+    grid-template-columns: 2.8fr 1fr;
+    grid-template-areas:
+    'header header'
+    'content-1 spam-1'
+    'content-2 spam-1'
+    'content-2 spam-2'
+    'content-3 spam-2'
+    'footer footer';
+}
+header{
+    background: #8D8484;
+    grid-area: header;
+}
+.content-1{
+    background: #776969;
+    grid-area: content-1;
+}
+.content-2{
+    background: #643030;
+    grid-area: content-2;
+}
+.content-3{
+    background: #441818;
+    grid-area: content-3;
+}
+.spam-1{
+    background: #937575;
+    grid-area: spam-1;
+}
+.spam-2{
+    background: #644C4C;
+    grid-area: spam-2;
+}
+footer{
+    background: #BDBDBD;
+    grid-area: footer;
+}
+section, aside{
+    color: white;
+}
+header, footer, section, aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
