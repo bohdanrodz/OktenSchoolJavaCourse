@@ -1,0 +1,14 @@
+body{
+    background: darkgray;
+}
+.users-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.user-block{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+    background: yellow;
+    font-family: Bahnschrift, Arial, sans-serif;
+}
