@@ -1,0 +1,7 @@
+.secondary-list{
+    margin-left: 20px;
+    list-style-type: square;
+}
+.main-list__element{
+    background: orange;
+}
