@@ -1,0 +1,7 @@
+.todo-item {
+    height: 30px;
+    font-size: 16px;
+    background: lightblue;
+    text-align: center;
+    cursor: pointer;
+}
