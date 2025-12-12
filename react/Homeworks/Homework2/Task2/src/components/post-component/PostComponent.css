@@ -1,0 +1,8 @@
+.post{
+    width: 400px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background: #95CB7C;
+    box-shadow: 5px 7px 12px black;
+}

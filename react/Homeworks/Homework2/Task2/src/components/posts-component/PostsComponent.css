@@ -1,0 +1,8 @@
+.posts-container {
+    display: flex;
+    gap: 20px;
+    background: darkblue;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
