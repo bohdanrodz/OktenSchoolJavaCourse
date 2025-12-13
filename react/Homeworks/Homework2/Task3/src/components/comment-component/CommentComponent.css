@@ -1,0 +1,13 @@
+.comment{
+    width: 20%;
+    padding: 10px;
+    background: lime;
+    transition: 0.1s;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+}
+
+.comment:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
