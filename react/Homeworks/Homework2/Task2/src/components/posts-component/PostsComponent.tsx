@@ -15,7 +15,7 @@ export const PostsComponent = () => {
         // }
         // fillPosts();
 
-    })
+    },[])
     return (
         <>
             <div className={'posts-container'}>
