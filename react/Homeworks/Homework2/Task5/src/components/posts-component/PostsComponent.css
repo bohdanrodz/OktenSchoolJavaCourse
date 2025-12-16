@@ -1,0 +1,13 @@
+.posts-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 25px;
+    padding: 20px;
+    background: saddlebrown;
+}
+.posts-container ul{
+    list-style: circle;
+}
+.posts-container li{
+    margin-left: 10px;
+}

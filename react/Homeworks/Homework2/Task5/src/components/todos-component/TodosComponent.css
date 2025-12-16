@@ -1,0 +1,7 @@
+.todos-container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    background: #B3A0CD;
+}

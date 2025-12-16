@@ -1,0 +1,6 @@
+.todo{
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #776969;
+    cursor: pointer;
+}
