@@ -1,0 +1,14 @@
+.product{
+    border: 2px dashed black;
+    border-radius: 15px;
+    background: cornflowerblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product__base-info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
