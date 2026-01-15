@@ -1,0 +1,11 @@
+.user-jsonplaceholder h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.user-jsonplaceholder h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.user-jsonplaceholder p{
+    font-size: 16px;
+}

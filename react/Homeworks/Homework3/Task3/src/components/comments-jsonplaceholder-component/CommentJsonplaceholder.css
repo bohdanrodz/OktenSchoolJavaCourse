@@ -1,0 +1,12 @@
+.comments-jsonplaceholder h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.comments-jsonplaceholder h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.comments-jsonplaceholder p{
+    font-size: 16px;
+}
+

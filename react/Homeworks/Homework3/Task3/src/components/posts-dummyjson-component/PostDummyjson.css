@@ -1,0 +1,14 @@
+.post-dummyjson h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.post-dummyjson h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.post-dummyjson p {
+    font-size: 16px;
+}
+.post-dummyjson p:nth-of-type(2) {
+    font-weight: bold;
+}
