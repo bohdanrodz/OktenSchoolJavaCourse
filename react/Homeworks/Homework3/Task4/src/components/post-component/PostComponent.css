@@ -1,0 +1,17 @@
+.post {
+    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
+}
+
+.post h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.post-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.post-body {
+    font-size: 16px;
+}

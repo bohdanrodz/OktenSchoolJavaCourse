@@ -1,0 +1,10 @@
+.user {
+    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
+}
+.user h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.user p{
+    font-size: 16px;
+}
