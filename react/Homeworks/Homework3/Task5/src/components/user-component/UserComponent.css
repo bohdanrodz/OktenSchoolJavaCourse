@@ -1,0 +1,10 @@
+.get-carts{
+    width: 100px;
+    height: 35px;
+    border: 1px solid darkblue;
+    background: #B3A0CD;
+    font-size: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
