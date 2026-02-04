@@ -1,0 +1,1 @@
+My task was just to make comments for all the code
