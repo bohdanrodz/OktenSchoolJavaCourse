@@ -1,0 +1,22 @@
+.menu {
+    height: 100px;
+    background: #2d2d79;
+    font-size: 30px;
+    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-link {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    border-width: 2px 1px 3px 1px;
+    color: white;
+}
+.menu-link a {
+    color: white;
+    text-decoration: none;
+}
