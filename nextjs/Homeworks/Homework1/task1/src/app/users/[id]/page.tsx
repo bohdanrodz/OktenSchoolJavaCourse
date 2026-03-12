@@ -1,4 +1,6 @@
 import {FC} from "react";
+import {getUser} from "@/services/api.service";
+import {UserComponent} from "@/components/UserComponent";
 
 interface Props {
     params: {id:string};
@@ -6,9 +8,9 @@ interface Props {
 
 export const UserPage:FC<Props> = async ({params}) => {
     const {id} = await params
-    return (
-        <div>User id{id}</div>
-    );
+    const user = await getUser(id)
+
+    return (<UserComponent user={user}/>);
 };
 
 export default UserPage;
