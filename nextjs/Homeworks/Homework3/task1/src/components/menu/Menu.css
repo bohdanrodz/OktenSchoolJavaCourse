@@ -1,0 +1,13 @@
+.menu ul {
+    height: 80px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.menu ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
