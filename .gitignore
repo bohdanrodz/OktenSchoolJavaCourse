@@ -4,3 +4,5 @@
 /typescript/Homeworks/**/*.js
 /typescript/Homeworks/**/*.d.ts
 /typescript/Homeworks/**/*.d.ts.map
+
+/java/homeworks/**/out/
