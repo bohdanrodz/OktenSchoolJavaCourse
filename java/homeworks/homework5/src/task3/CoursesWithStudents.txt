@@ -1,0 +1,4 @@
+Course{id=1, title='Math', students=[Student{id=2, fullName='Peter Havryluk'}, Student{id=3, fullName='Jimmy Neutron'}, Student{id=5, fullName='Sandy Cheeks'}]}
+Course{id=2, title='English', students=[Student{id=1, fullName='Jame Hawk'}, Student{id=3, fullName='Jimmy Neutron'}, Student{id=4, fullName='John Francis Soprano'}]}
+Course{id=3, title='Geography', students=[Student{id=1, fullName='Jame Hawk'}, Student{id=2, fullName='Peter Havryluk'}, Student{id=3, fullName='Jimmy Neutron'}, Student{id=4, fullName='John Francis Soprano'}, Student{id=5, fullName='Sandy Cheeks'}]}
+Course{id=4, title='Biology', students=[Student{id=3, fullName='Jimmy Neutron'}, Student{id=5, fullName='Sandy Cheeks'}]}
